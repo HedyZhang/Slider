@@ -38,7 +38,7 @@
     [super viewDidLoad];
     
     _slider = [[UISlider alloc] initWithFrame:CGRectMake(30, 40, 500, 5)];
-    _slider.maximumValue = 1000000000;
+
     [_slider addTarget:self action:@selector(scrubbingDidBegin) forControlEvents:UIControlEventTouchDown];
     [_slider addTarget:self action:@selector(scrubberIsScrolling) forControlEvents:UIControlEventValueChanged];
     [_slider addTarget:self action:@selector(scrubbingDidEnd) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchCancel];
