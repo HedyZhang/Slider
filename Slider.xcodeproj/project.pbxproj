@@ -19,6 +19,7 @@
 		F52B8C26197D4C880066301F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52B8C0E197D4C880066301F /* UIKit.framework */; };
 		F52B8C2E197D4C880066301F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F52B8C2C197D4C880066301F /* InfoPlist.strings */; };
 		F52B8C30197D4C880066301F /* SliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B8C2F197D4C880066301F /* SliderTests.m */; };
+		F52B8C3B197D4CA90066301F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B8C3A197D4CA90066301F /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F52B8C2B197D4C880066301F /* SliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderTests-Info.plist"; sourceTree = "<group>"; };
 		F52B8C2D197D4C880066301F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F52B8C2F197D4C880066301F /* SliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTests.m; sourceTree = "<group>"; };
+		F52B8C39197D4CA90066301F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F52B8C3A197D4CA90066301F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				F52B8C19197D4C880066301F /* AppDelegate.h */,
 				F52B8C1A197D4C880066301F /* AppDelegate.m */,
+				F52B8C39197D4CA90066301F /* RootViewController.h */,
+				F52B8C3A197D4CA90066301F /* RootViewController.m */,
 				F52B8C1C197D4C880066301F /* Images.xcassets */,
 				F52B8C11197D4C880066301F /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				F52B8C1B197D4C880066301F /* AppDelegate.m in Sources */,
 				F52B8C17197D4C880066301F /* main.m in Sources */,
+				F52B8C3B197D4CA90066301F /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +366,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Slider/Slider-Prefix.pch";
 				INFOPLIST_FILE = "Slider/Slider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Slider/Slider-Prefix.pch";
 				INFOPLIST_FILE = "Slider/Slider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +445,7 @@
 				F52B8C35197D4C880066301F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F52B8C36197D4C880066301F /* Build configuration list for PBXNativeTarget "SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +454,7 @@
 				F52B8C38197D4C880066301F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
